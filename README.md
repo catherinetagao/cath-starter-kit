@@ -49,6 +49,40 @@ composer run dev
 
 ---
 
+## ⚡ Create Inertia Components Easily
+
+This starter kit includes a custom Artisan command to quickly generate Inertia.js React components:
+
+### 🏗️ Generate a New Component
+
+```bash
+php artisan make:inertia Components/MyComponent
+```
+
+This will create a new file at `resources/js/Components/MyComponent.jsx` with a basic component template.
+
+### 📂 File Structure
+
+```
+resources/js/Components/MyComponent.jsx
+```
+
+### ✨ Example Generated Component
+
+```jsx
+import React from "react";
+
+const MyComponent = () => {
+    return <div>{/* MyComponent component */}</div>;
+};
+
+export default MyComponent;
+```
+
+This command ensures that components are placed in the correct directory and prevents overwriting existing files. It also automatically opens the newly created file for editing.
+
+---
+
 ## 📖 Documentation
 
 For more details on Laravel Breeze, visit the official [Laravel Starter Kit docs](https://laravel.com/docs/master/starter-kits#laravel-breeze).
