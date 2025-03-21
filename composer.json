@@ -1,8 +1,15 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "catherinetagao/cath-starter-kit",
+    "version": "1.0.0",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A Laravel starter kit with Inertia.js, Laravel Breeze, Laravel Sanctum, Laravel Pail, Laravel Pint, Laravel Sail, Laravel Tinker, TightenCo Ziggy, FakerPHP, Mockery, NunoMaduro Collision, PestPHP, and PestPHP Laravel Plugin.",
+    "authors": [
+        {
+            "name": "Catherine Tagao",
+            "email": "katetagaoe@gmail.com"
+        }
+    ],
     "keywords": [
         "laravel",
         "framework"
