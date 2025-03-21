@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "catherinetagao/cath-starter-kit",
-    "version": "1.0.0",
+    "version": "v1.0.0",
     "type": "project",
     "description": "A Laravel starter kit with Inertia.js, Laravel Breeze, Laravel Sanctum, Laravel Pail, Laravel Pint, Laravel Sail, Laravel Tinker, TightenCo Ziggy, FakerPHP, Mockery, NunoMaduro Collision, PestPHP, and PestPHP Laravel Plugin.",
     "authors": [
