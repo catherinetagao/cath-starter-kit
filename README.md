@@ -21,6 +21,55 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Cath Starter Kit
+
+This starter kit is built on top of Laravel and includes Breeze for authentication scaffolding and React for building dynamic user interfaces.
+
+### Features
+
+- **Laravel Breeze**: Breeze provides a minimal and simple starting point for building a Laravel application with authentication. It includes login, registration, password reset, email verification, and more.
+- **React**: React is used for building interactive user interfaces. This starter kit integrates React with Laravel, allowing you to build modern, dynamic applications.
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/cath-starter-kit.git
+    cd cath-starter-kit
+    ```
+
+2. Install dependencies:
+    ```sh
+    composer install
+    npm install
+    ```
+
+3. Set up environment variables:
+    ```sh
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+4. Run migrations:
+    ```sh
+    php artisan migrate
+    ```
+
+5. Build assets:
+    ```sh
+    npm run dev
+    ```
+
+6. Serve the application:
+    ```sh
+    php artisan serve
+    ```
+
+### Usage
+
+- **Authentication**: The starter kit includes authentication scaffolding provided by Laravel Breeze. You can customize the authentication views and logic as needed.
+- **React Components**: You can create and manage React components in the `resources/js` directory. The starter kit is pre-configured to use React with Laravel Mix.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
